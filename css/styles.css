@@ -15,4 +15,22 @@ h2 {
   margin-bottom: 10px;
 }
 
+.genero {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 10px;
+}
 
+.pelicula {
+  text-align: center;
+}
+
+.pelicula img {
+  width: 100%;
+  height: auto;
+}
+
+.pelicula-title {
+  margin-top: 5px;
+  font-size: 14px;
+}
